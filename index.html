@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styling.css" rel="stylesheet" />
+    <title>Ahmed's Portfolio</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#Home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="hero-image" id="Home">
+      <img src="City2.jpg" alt="" />
+      <div class="hero-text">
+        <h1 style="font-size: 50px">I am Ahmed</h1>
+        <p>SWE Student @ UWO</p>
+        <button>Download my resume</button>
+      </div>
+    </div>
+
+    <div class="about-section" id="about">
+      <h1>About me</h1>
+      <p>
+        Welcome to my portfolio website. I'm a passionate and curious
+        second-year Software Engineering student at Western University. Feel
+        free to look around, do not hesitate to contact me with the form
+        provided below.
+      </p>
+    </div>
+    <div class="work-section" id="work">
+      <h1 class="workex" style="text-align: center">Work Experience</h1>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Full Stack Dev</h2>
+              <p class="title">Apple</p>
+              <p>Designed websites using HTML</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Backend Developer</h2>
+              <p class="title">Google</p>
+              <p>Structed backend servers</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Frontend Engineer</h2>
+              <p class="title">Amazon</p>
+              <p>Designed webiste UX/UI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container2" id="contact">
+      <div style="text-align: center">
+        <h2>Contact Me</h2>
+        <p>Leave me a message:</p>
+      </div>
+      <div class="column"></div>
+      <div class="column">
+        <form class="form">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Others</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 170px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Ahmed's Portfolio</p>
+    </div>
+    <div style="padding-left: 16px"></div>
+  </body>
+</html>
